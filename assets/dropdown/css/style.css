@@ -262,7 +262,7 @@
   position: fixed;
   background-position: center;
   background:#fff url('./css-loaders-144.gif') no-repeat center;
-  background-size: 50%;
+  background-size: 80%;
   z-index: 999999;
 }
 
