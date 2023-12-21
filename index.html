@@ -27,17 +27,16 @@
   <link rel="stylesheet" href="assets/dropdown/css/style.css">
   <link rel="stylesheet" href="assets/socicon/css/styles.css">
   <link rel="stylesheet" href="assets/theme/css/style.css">
-  <link rel="stylesheet" href="assets/bootstrap/css/loader.scss">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="preload" href="https://fonts.googleapis.com/css?family=Jost:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
   <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Jost:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i&display=swap"></noscript>
   <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css"><link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
 
   
-  
-  
+
 </head>
-<body>
+<body onload="myFunction()">
+<div id="loading"></div>
   
   <section data-bs-version="5.1" class="menu menu2 cid-sFCw1qGFAI" once="menu" id="menu2-23">
     
@@ -68,13 +67,6 @@
         </div>
     </nav>
 </section>
-<div class="container">
-	<div class="📦"></div>
-	<div class="📦"></div>
-	<div class="📦"></div>
-	<div class="📦"></div>
-	<div class="📦"></div>
-</div>
 
 <section data-bs-version="5.1" class="header14 cid-sFzxmVl7J6" id="header14-1f">
 
@@ -518,6 +510,11 @@ s0.parentNode.insertBefore(s1,s0);
 })();
 </script>
 <!--End of Tawk.to Script-->
-  
+<script>
+    var preload = document.getElementById('loading');
+    function myFunction(){
+        preload.style.display='none';
+    }
+</script>
 </body>
 </html>

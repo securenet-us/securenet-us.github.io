@@ -35,7 +35,8 @@
   
   
 </head>
-<body>
+<body onload="myFunction()">
+<div id="loading"></div>
   
   <section data-bs-version="5.1" class="menu menu2 cid-sFCw1qGFAI" once="menu" id="menu2-9">
     
@@ -207,6 +208,11 @@ s0.parentNode.insertBefore(s1,s0);
 })();
 </script>
 <!--End of Tawk.to Script--> 
-  
+<script>
+    var preload = document.getElementById('loading');
+    function myFunction(){
+        preload.style.display='none';
+    }
+</script>  
 </body>
 </html>

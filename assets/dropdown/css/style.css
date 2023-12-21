@@ -256,6 +256,15 @@
 .navbar-toggleable-sm .nav-dropdown .dropdown-menu {
   position: absolute; }
 
+#loading{
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  background-position: center;
+  background:#fff url('./css-loaders-144.gif') no-repeat center;
+  z-index: 999999;
+}
+
 .navbar-toggleable-sm .nav-dropdown .dropdown-submenu {
   left: 100%;
   margin-left: 0.125rem;
